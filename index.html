@@ -9,6 +9,7 @@
     <script>
       function callPowerAutomateFlow()
       {
+        debugger;
         var url=windows.loaction.href;
         var payerId=url.split('PayerID=')[1];
          var Url = "https://prod-64.westus.logic.azure.com:443/workflows/1a8cd6dea11a4b99b03f51948a803bdc/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=ZOpnDFNGw8keyYfkAsXKWjQdL2sVVVknptziKiEOY3U";
